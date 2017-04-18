@@ -1,5 +1,14 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    line-height: 200%;
+    padding: 6px 20px 30px;
+}
 .app {
-  font-family: helvetica, arial, sans-serif;
-  line-height: 200%;
-  padding: 6px 20px 30px;
+    font-size: 16px;
+}
+.footer {
+    font-size: 12px;
+    line-height: 12px;
+    border-top: solid 2px gray;
+    text-align: center;
 }
