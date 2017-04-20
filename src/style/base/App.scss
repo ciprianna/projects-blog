@@ -1,0 +1,43 @@
+// Page Variables
+$backgroundColor: #EEEEEE;
+$offBackground: #FFFFFF;
+$primaryColor: #00ACC1;
+$lightColor: #5DDEF4;
+$darkColor: #007C91;
+$fontColor: #000000;
+$primaryFont: 'Roboto', sans-serif;
+$focusFont: 'Alegreya', serif;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: $backgroundColor;
+    font-family: $primaryFont;
+    line-height: 200%;
+    padding: 6px 20px 30px;
+}
+h2 {
+    font-family: $focusFont;
+}
+.app {
+    font-size: 16px;
+}
+.footer {
+    font-size: 12px;
+    line-height: 12px;
+    border-top: solid 2px gray;
+    text-align: center;
+}
+
+/*TODO*/
+/*- Install SASS and integrate;*/
+/*- Look into something like Bootstrap (for media queries/icons)*/
+/*- Create content/blog post component*/
+/*- Create extra pages:*/
+    /*- Home page*/
+    /*- About page*/
