@@ -12,4 +12,4 @@ export default class Footer extends Component {
             </div>
         );
     }
-}
+} // TODO - add icons and links here

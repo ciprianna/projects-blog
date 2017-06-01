@@ -26,7 +26,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid projects-blog@1.0.0
 16 verbose cwd /Users/Ciprianna/Code/js/projects-blog
-17 error Darwin 16.3.0
+17 error Darwin 16.5.0
 18 error argv "/Users/Ciprianna/.nvm/versions/node/v7.4.0/bin/node" "/Users/Ciprianna/.nvm/versions/node/v7.4.0/bin/npm" "start"
 19 error node v7.4.0
 20 error npm  v4.0.5
