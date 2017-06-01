@@ -1,3 +1,9 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   background-color: #EEEEEE;
   font-family: "Roboto", sans-serif;
@@ -5,10 +11,16 @@ body {
   padding: 6px 20px 30px; }
 
 h2 {
-  font-family: "Alegreya", serif; }
+  font-family: "Alegreya", serif;
+  text-align: center;
+  font-size: 24px; }
 
 .app {
   font-size: 16px; }
+
+.header {
+  text-align: center;
+  font-size: 24px; }
 
 .footer {
   font-size: 12px;
