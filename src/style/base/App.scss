@@ -4,7 +4,7 @@ $offBackground: #FFFFFF;
 $primaryColor: #00ACC1;
 $lightColor: #5DDEF4;
 $darkColor: #007C91;
-$fontColor: #000000;
+$fontColor: #000000; // Change to dark gray
 $primaryFont: 'Roboto', sans-serif;
 $focusFont: 'Alegreya', serif;
 
@@ -23,19 +23,19 @@ body {
 }
 h2 {
     font-family: $focusFont;
-    color: green;
 }
 .app {
     font-size: 16px;
 }
 .header {
+    border-bottom: solid 2px gray;
     text-align: center;
-    font-size: 36px;
-    color: green;
+    font-size: 32px;
+    color: #00ACC1;
 }
 .footer {
+    border-top: solid 2px gray;
     font-size: 12px;
     line-height: 12px;
-    border-top: solid 2px gray;
     text-align: center;
 }

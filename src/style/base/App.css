@@ -11,29 +11,21 @@ body {
   padding: 6px 20px 30px; }
 
 h2 {
-  font-family: "Alegreya", serif;
-  text-align: center;
-  font-size: 24px; }
+  font-family: "Alegreya", serif; }
 
 .app {
   font-size: 16px; }
 
 .header {
+  border-bottom: solid 2px gray;
   text-align: center;
-  font-size: 24px; }
+  font-size: 32px;
+  color: #00ACC1; }
 
 .footer {
+  border-top: solid 2px gray;
   font-size: 12px;
   line-height: 12px;
-  border-top: solid 2px gray;
   text-align: center; }
-
-/*TODO*/
-/*- Install SASS and integrate;*/
-/*- Look into something like Bootstrap (for media queries/icons)*/
-/*- Create content/blog post component*/
-/*- Create extra pages:*/
-/*- Home page*/
-/*- About page*/
 
 /*# sourceMappingURL=App.css.map */
