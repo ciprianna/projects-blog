@@ -23,3 +23,17 @@ if (module.hot) {
     render(App)
   });
 }
+
+// TODO
+// - Install SASS and integrate
+// - Look into something like Bootstrap (for media queries/icons)
+// - Create content/blog post component
+// - Create extra pages:
+//     - Home page
+//     - About page (link to photo on posts layout)
+//     - History/Posts
+// - Create nav menu (full site and mobile)
+// - Share links (twitter, fb)
+// - Create tags for posts and add search capabilities on Posts page
+// - Show similiar posts based on tags
+// - Page rank?
