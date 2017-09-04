@@ -26,11 +26,11 @@ module.exports = {
 
         path: resolve(__dirname, 'dist'),
 
-        publicPath: '/'
+        publicPath: '/',
         // Necessary for HMR to know where to load hot update chunks
     },
 
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
 
     devServer: {
         hot: true,
@@ -52,19 +52,12 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ['style-loader', 'css-loader?modules', ],
+                use: ['style-loader', 'css-loader' ]
             },
             {
                 test: /\.scss$/,
-                use: [{
-                    loader: "style-loader" // creates style nodes from JS strings
-                }, {
-                    loader: "css-loader" // translates CSS into CommonJS
-                }, {
-                    loader: "sass-loader" // compiles Sass to CSS
-                }]
-            },
-
+                loaders: ["style-loader", "css-loader", "sass-loader"]
+            }
         ],
     },
 

@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import styles from '../style/base/App.css';
+require('../App.scss');
 
 export default class Footer extends Component {
     render() {
         return (
-            <div className={styles.footer}>
+            <div className={'footer'}>
             <br />
                 <p>{this.props.author}</p>
                 <p>{this.props.twitter}</p>

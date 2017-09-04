@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './App.scss';
 
 import { AppContainer } from 'react-hot-loader';
 // AppContainer is a necessary wrapper component for HMR
@@ -25,7 +26,7 @@ if (module.hot) {
 }
 
 // TODO
-// - Install SASS and integrate
+// - Load font and icons with webpack file-loader https://webpack.js.org/guides/asset-management/#loading-css
 // - Look into something like Bootstrap (for media queries/icons)
 // - Create content/blog post component
 // - Create extra pages:
