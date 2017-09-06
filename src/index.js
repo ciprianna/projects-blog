@@ -37,4 +37,5 @@ if (module.hot) {
 // - Share links (twitter, fb)
 // - Create tags for posts and add search capabilities on Posts page
 // - Show similiar posts based on tags
+// - Extract text plugin for builds
 // - Page rank?

@@ -1,5 +1,5 @@
 import React from 'react';
-require('../App.scss');
+import '../App.scss';
 import Navbar from './Navbar.js';
 import Header from './Header.js';
 import Content from './Content.js';
