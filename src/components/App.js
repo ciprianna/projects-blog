@@ -11,7 +11,6 @@ const App = () => (
     <Header header='Hello, Kitten'></Header>
     <Navbar></Navbar>
     <Content text='This is where I will talk about cats all day.'></Content>
-    <button className='btn-primary'>Button</button>
     <Footer author='Ciprianna Engel' twitter='ciprianna17' github='ciprianna'></Footer>
   </div>
 );

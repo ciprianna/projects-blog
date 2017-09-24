@@ -5,7 +5,6 @@ $primaryColor: #00ACC1;
 $lightColor: #5DDEF4;
 $darkColor: #007C91;
 $fontColor: #000000; // Change to dark gray
-$primaryFont: 'Roboto', sans-serif;
 $focusFont: 'Alegreya', serif;
 
 html {
@@ -17,12 +16,14 @@ html {
 
 body {
     background-color: $backgroundColor;
-    font-family: $primaryFont;
     line-height: 200%;
     padding: 6px 20px 30px;
 }
 h2 {
-    font-family: $focusFont;
+    font-family: $focusFont !important;
+}
+.icon {
+    margin-right: 10px;
 }
 .app {
     font-size: 16px;
