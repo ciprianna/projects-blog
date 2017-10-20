@@ -17,9 +17,9 @@ export default class Footer extends Component {
         return (
             <div className={'footer'}>
             <br />
-                <p><Icon imageSource={heart.src} altText="Heart for No Reason"></Icon> {this.props.author}</p>
-                <p><Icon imageSource={twitter.src} altText="Twitter Logo"></Icon> {this.props.twitter}</p>
-                <p><Icon imageSource={github.src} altText="Github Logo"></Icon> {this.props.github}</p>
+                <p><Icon imageSource={heart.src} altText={"Heart for No Reason"}></Icon> {this.props.author}</p>
+                <p><Icon imageSource={twitter.src} altText={"Twitter Logo"}></Icon> {this.props.twitter}</p>
+                <p><Icon imageSource={github.src} altText={"Github Logo"}></Icon> {this.props.github}</p>
             </div>
         );
     }

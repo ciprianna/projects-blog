@@ -4,7 +4,7 @@ import '../App.scss';
 export default class Footer extends Component {
     render() {
         return (
-            <img src={this.props.imageSource} width="20" height="20" alt={this.props.altText} class="icon" />
+            <img src={this.props.imageSource} width={20} height={20} alt={this.props.altText} className={'icon'}/>
         );
     }
 }

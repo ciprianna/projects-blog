@@ -27,8 +27,6 @@ if (module.hot) {
 }
 
 // TODO
-// - Load font and icons with webpack file-loader https://webpack.js.org/guides/asset-management/#loading-css
-// - Look into something like Bootstrap (for media queries/icons)
 // - Create content/blog post component
 // - Create extra pages:
 //     - Home page
