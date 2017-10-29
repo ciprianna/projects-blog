@@ -4,15 +4,21 @@ export default class Content extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            text: this.props.text
+            textContent: this.props.textContent
         }
     }
 
     render() {
         return (
             <div>
-                <p>{this.state.text}</p>
+                <p>{this.state.textContent}</p>
             </div>
         );
+    }
+
+    componentWillReceiveProps(nextProps) {
+      if (nextProps.textContent !== this.state.textContent) {
+        this.setState({ textContent: nextProps.textContent });
+      }
     }
 }
