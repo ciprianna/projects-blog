@@ -31,12 +31,13 @@ if (module.hot) {
 
 // TODO
 // - Create content/blog post component
-// - Page routing
-// - Create server part of app? Express? Local postgres?
+//    - Create listing of all posts
+//    - Create a component to read in posts via api
+//    - Create server part of app? Express? Local postgres?
 // - Create extra pages:
-//     - Home page
-//     - About page (link to photo on posts layout)
-//     - History/Posts
+//    - Home page
+//    - About page (link to photo on posts layout)
+//    - History/Posts
 // - Create nav menu (full site and mobile)
 // - Share links (twitter, fb)
 // - Create tags for posts and add search capabilities on Posts page

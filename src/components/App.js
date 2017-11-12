@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap';
 import Navbar from './Navbar.js';
 import Header from './Header.js';
 import Content from './Content.js';
+import PostListing from './PostListing.js';
 import Footer from './Footer.js';
 import { Route, Link, Switch } from 'react-router-dom';
 
@@ -21,11 +22,11 @@ export default class App extends Component {
         return <div className={'app'}>
             <Header header={'Hello, Kitten'}></Header>
             <Navbar></Navbar>
-            <Link to='/posts'>Posts</Link>
             <Switch>
-                <Route path='/posts' render={()=><Content textContent={this.state.textContent}></Content>}/>
+                <Route path='/posts' component={PostListing}/>
+                <Route path='/about' render={()=><Content textContent={"This is a future about page..."}></Content>}/>
+                <Route path='/' render={()=><Content textContent={"Welcome to the Home page! Mrow!"}></Content>}/>
             </Switch>
-
             <Footer author={'Ciprianna Engel'} twitter={'ciprianna17'} github={'ciprianna'}></Footer>
         </div>
     }
