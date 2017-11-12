@@ -17,8 +17,8 @@ export default class Content extends Component {
     }
 
     componentWillReceiveProps(nextProps) {
-      if (nextProps.textContent !== this.state.textContent) {
-        this.setState({ textContent: nextProps.textContent });
-      }
+        if (nextProps.textContent !== this.state.textContent) {
+            this.setState({ textContent: nextProps.textContent });
+        }
     }
 }

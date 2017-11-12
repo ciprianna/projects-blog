@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom'
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -11,7 +12,9 @@ import App from './components/App';
 const render = (Component) => {
   ReactDOM.render(
     <AppContainer>
-      <Component/>
+        <BrowserRouter>
+            <Component/>
+        </BrowserRouter>
     </AppContainer>,
     document.getElementById('root')
   );
@@ -28,6 +31,8 @@ if (module.hot) {
 
 // TODO
 // - Create content/blog post component
+// - Page routing
+// - Create server part of app? Express? Local postgres?
 // - Create extra pages:
 //     - Home page
 //     - About page (link to photo on posts layout)
