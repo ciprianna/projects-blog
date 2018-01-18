@@ -30,6 +30,7 @@ if (module.hot) {
 }
 
 // TODO
+// - Auto-run linter
 // - Create content/blog post component
 //    - Create listing of all posts
 //    - Create a component to read in posts via api
