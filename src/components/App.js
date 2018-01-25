@@ -23,7 +23,8 @@ export default class App extends Component {
             <Header header={'Hello, Kitten'}></Header>
             <Navbar></Navbar>
             <Switch>
-                <Route path='/posts' component={PostListing}/>
+                <Route exact path='/posts' component={PostListing}/>
+                // <Route exact path='/posts/:id' render={()=>}/>
                 <Route path='/about' render={()=><Content textContent={"This is a future about page..."}></Content>}/>
                 <Route path='/' render={()=><Content textContent={"Welcome to the Home page! Mrow!"}></Content>}/>
             </Switch>

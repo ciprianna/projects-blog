@@ -34,7 +34,8 @@ if (module.hot) {
 // - Create content/blog post component
 //    - Create listing of all posts
 //    - Create a component to read in posts via api
-//    - Create server part of app? Express? Local postgres?
+//    - Create server part of app
+//    - Create an api for server (controller)
 // - Create extra pages:
 //    - Home page
 //    - About page (link to photo on posts layout)
